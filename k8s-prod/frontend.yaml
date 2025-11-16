@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: bharathsuggi/frontend:694535bf15cb7328bd153687abca4167a3fd083a
+          image: bharathsuggi/frontend:27e8e3a8861a28aa9928bb8bbf38b29d4dbb2123
           ports:
             - containerPort: 80
 ---
