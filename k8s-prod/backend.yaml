@@ -1,4 +1,5 @@
---- 
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: bharathsuggi/backend:6e99beb18867b93d4f2b27a794209df7ae329a7d
+          image: bharathsuggi/backend:5bcd016d7b7a6be51e7c458486e30daebf003979
           ports:
             - containerPort: 5000
           env:
